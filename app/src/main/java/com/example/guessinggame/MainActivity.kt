@@ -40,14 +40,14 @@ class MainActivity : AppCompatActivity() {
                 })
                 //判斷勝負
                 when{
-                    btn_scissor.isChecked && computer == 2 || btn_stone.isChecked && computer == 0 || btn_paper.isChecked && computer == 1 ->{
+                    btn_scissor.isChecked && computer == 1 || btn_stone.isChecked && computer == 2 || btn_paper.isChecked && computer == 0 ->{
                         tv_winner.text = String.format("勝利者\n%s",ed_name.text)
                         tv_text.text = "恭喜你獲勝了！！！"
                         var textView = findViewById<TextView>(R.id.tv_text)
                         textView.setTextColor(Color.parseColor("#FF0000"))
 
                     }
-                    btn_scissor.isChecked && computer == 1 || btn_stone.isChecked && computer == 2 || btn_paper.isChecked && computer == 0 ->{
+                    btn_scissor.isChecked && computer == 2 || btn_stone.isChecked && computer == 0 || btn_paper.isChecked && computer == 1 ->{
                         tv_winner.text = String.format("勝利者\n電腦")
                         tv_text.text = "可惜，電腦獲勝了！"
                         var textView = findViewById<TextView>(R.id.tv_text)
