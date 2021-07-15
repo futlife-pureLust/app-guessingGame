@@ -13,6 +13,7 @@
         android:layout_marginStart="156dp"
         android:layout_marginLeft="156dp"
         android:layout_marginTop="32dp"
+        android:gravity="center"
         android:text="猜拳遊戲"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,9 +25,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:ems="10"
+        android:hint="請輸入玩家姓名"
         android:inputType="textPersonName"
-        android:text="請輸入玩家姓名"
-        android:textColor="#F44336"
+        android:textColor="#36F4D7"
         android:textSize="18sp"
         android:textStyle="italic"
         app:layout_constraintTop_toBottomOf="@+id/tv_text"
@@ -71,6 +72,7 @@
         android:layout_marginLeft="156dp"
         android:layout_marginTop="92dp"
         android:text="猜拳"
+        app:backgroundTint="#FF8989"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
 

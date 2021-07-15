@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //this.setTitle("04-猜拳遊戲");
+        //this.setTitle("0X-XXX猜拳遊戲");
         
         //加入監聽及程式 //此處btn_mora若變紅色代表需import，alt+enter然後選import
         btn_mora.setOnClickListener{
