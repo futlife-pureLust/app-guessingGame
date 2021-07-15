@@ -59,6 +59,7 @@
             android:id="@+id/btn_paper"
             android:layout_width="105dp"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="布" />
     </RadioGroup>
 

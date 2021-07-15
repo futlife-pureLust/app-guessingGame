@@ -1,10 +1,11 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
 }
 //加入二行apply plugin
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
+/*apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'*/
 
 
 android {
